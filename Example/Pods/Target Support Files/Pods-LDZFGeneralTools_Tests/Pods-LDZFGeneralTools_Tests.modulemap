@@ -1,0 +1,6 @@
+framework module Pods_LDZFGeneralTools_Tests {
+  umbrella header "Pods-LDZFGeneralTools_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
