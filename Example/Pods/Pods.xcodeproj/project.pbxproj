@@ -93,7 +93,7 @@
 		38DCC4A0572A28482B72EB4B9CAEF4DB /* Pods-LDZFGeneralTools_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LDZFGeneralTools_Example"; path = Pods_LDZFGeneralTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B44D6B554A1DF989DD16ADC58C4856 /* LdzfDeepLinkModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LdzfDeepLinkModel.h; path = LDZFGeneralTools/Classes/DeepLinkModel/LdzfDeepLinkModel.h; sourceTree = "<group>"; };
 		44CFC803E7BBD1508050DB27441AA70F /* Pods-LDZFGeneralTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LDZFGeneralTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		473A4EF61FDDA0B83F7F826B52FDDF98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		473A4EF61FDDA0B83F7F826B52FDDF98 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		47C860E008CA40E9DE5E0132A6550055 /* RegExCategories.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = RegExCategories.m; sourceTree = "<group>"; };
 		4916BC996EFD94C4BEA0E7EB3971DEA5 /* Pods-LDZFGeneralTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFGeneralTools_Tests-Info.plist"; sourceTree = "<group>"; };
 		4A6B9F453A84E56EEDF0FB6724D6280C /* Pods-LDZFGeneralTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LDZFGeneralTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -116,13 +116,13 @@
 		8F1FA4C28488C385BBAF675320D0C271 /* NSArray+LdzfIndexPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+LdzfIndexPath.m"; path = "LDZFGeneralTools/Classes/NSArray+IndexPath/NSArray+LdzfIndexPath.m"; sourceTree = "<group>"; };
 		9278910D668C7663FEDB78A85736D27E /* Pods-LDZFGeneralTools_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LDZFGeneralTools_Tests"; path = Pods_LDZFGeneralTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9674DA92A75EB9D60A6F02C9C41FD556 /* LdzfDateFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LdzfDateFormatter.h; path = LDZFGeneralTools/Classes/DateFormatter/LdzfDateFormatter.h; sourceTree = "<group>"; };
-		97E917323CFB862D7F5BD4D01FE08E69 /* LDZFGeneralTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LDZFGeneralTools.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		98C864B68056DE0801640725E2CF8CE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		97E917323CFB862D7F5BD4D01FE08E69 /* LDZFGeneralTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LDZFGeneralTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98C864B68056DE0801640725E2CF8CE1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9978143553DD677485AD34ACFBCE1588 /* LdzfValidateUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LdzfValidateUtils.h; path = LDZFGeneralTools/Classes/RegEx/LdzfValidateUtils.h; sourceTree = "<group>"; };
 		99791839847EEE72F53C8BCA6FD31472 /* Pods-LDZFGeneralTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LDZFGeneralTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9A8B20DB768EE47BEC0F5E8C5E61BAFA /* LdzfValidateUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LdzfValidateUtils.m; path = LDZFGeneralTools/Classes/RegEx/LdzfValidateUtils.m; sourceTree = "<group>"; };
 		9D3AA1A972A66A8630703519089ACD67 /* RegExCategories-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RegExCategories-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2A3A014CB9C32BF48EAE8037961F533 /* LdzfGetPermission.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LdzfGetPermission.m; path = LDZFGeneralTools/Classes/Permission/LdzfGetPermission.m; sourceTree = "<group>"; };
 		AAAA55DEA84C924AFCB57A4CF91BB2C1 /* LdzfDeepLinkModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LdzfDeepLinkModel.m; path = LDZFGeneralTools/Classes/DeepLinkModel/LdzfDeepLinkModel.m; sourceTree = "<group>"; };
 		AD6FDEC058BA955A1D4D53C3E0881926 /* LdzfJailBreakChecker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LdzfJailBreakChecker.m; path = LDZFGeneralTools/Classes/JailBreakChecker/LdzfJailBreakChecker.m; sourceTree = "<group>"; };
@@ -404,6 +404,7 @@
 				47C860E008CA40E9DE5E0132A6550055 /* RegExCategories.m */,
 				B6F42CCE0339BC42595CD4DAD03CC46E /* Support Files */,
 			);
+			name = RegExCategories;
 			path = RegExCategories;
 			sourceTree = "<group>";
 		};
@@ -971,7 +972,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

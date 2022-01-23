@@ -1,25 +1,23 @@
 PODS:
-  - LDZFGeneralTools (0.1.0):
-    - LDZFGeneralTools/DateFormatter (= 0.1.0)
-    - LDZFGeneralTools/DeepLinkModel (= 0.1.0)
-    - LDZFGeneralTools/DeviceInfo (= 0.1.0)
-    - LDZFGeneralTools/FileManager (= 0.1.0)
-    - LDZFGeneralTools/IrregularElementsCreator (= 0.1.0)
-    - LDZFGeneralTools/JailBreakChecker (= 0.1.0)
-    - "LDZFGeneralTools/NSArray+IndexPath (= 0.1.0)"
-    - LDZFGeneralTools/NumberFormatter (= 0.1.0)
-    - LDZFGeneralTools/Permission (= 0.1.0)
-    - LDZFGeneralTools/RegEx (= 0.1.0)
-  - LDZFGeneralTools/DateFormatter (0.1.0)
-  - LDZFGeneralTools/DeepLinkModel (0.1.0)
-  - LDZFGeneralTools/DeviceInfo (0.1.0)
-  - LDZFGeneralTools/FileManager (0.1.0)
-  - LDZFGeneralTools/IrregularElementsCreator (0.1.0)
-  - LDZFGeneralTools/JailBreakChecker (0.1.0)
-  - "LDZFGeneralTools/NSArray+IndexPath (0.1.0)"
-  - LDZFGeneralTools/NumberFormatter (0.1.0)
-  - LDZFGeneralTools/Permission (0.1.0)
-  - LDZFGeneralTools/RegEx (0.1.0):
+  - LDZFGeneralTools (0.1.1):
+    - LDZFGeneralTools/DateFormatter (= 0.1.1)
+    - LDZFGeneralTools/DeepLinkModel (= 0.1.1)
+    - LDZFGeneralTools/FileManager (= 0.1.1)
+    - LDZFGeneralTools/IrregularElementsCreator (= 0.1.1)
+    - LDZFGeneralTools/JailBreakChecker (= 0.1.1)
+    - "LDZFGeneralTools/NSArray+IndexPath (= 0.1.1)"
+    - LDZFGeneralTools/NumberFormatter (= 0.1.1)
+    - LDZFGeneralTools/Permission (= 0.1.1)
+    - LDZFGeneralTools/RegEx (= 0.1.1)
+  - LDZFGeneralTools/DateFormatter (0.1.1)
+  - LDZFGeneralTools/DeepLinkModel (0.1.1)
+  - LDZFGeneralTools/FileManager (0.1.1)
+  - LDZFGeneralTools/IrregularElementsCreator (0.1.1)
+  - LDZFGeneralTools/JailBreakChecker (0.1.1)
+  - "LDZFGeneralTools/NSArray+IndexPath (0.1.1)"
+  - LDZFGeneralTools/NumberFormatter (0.1.1)
+  - LDZFGeneralTools/Permission (0.1.1)
+  - LDZFGeneralTools/RegEx (0.1.1):
     - RegExCategories
   - RegExCategories (1.0)
 
@@ -35,7 +33,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LDZFGeneralTools: a1f71a1aafe4cfa51b34ed0c06f3b047f4132f31
+  LDZFGeneralTools: dd2eeb757a5482a673390763e50a207b505ae477
   RegExCategories: e68befacacd5bda853c88f70ec745cb2d0cfb89c
 
 PODFILE CHECKSUM: 725a6abdda8266225ac980162ef8c71ce66a8b5a
