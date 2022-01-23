@@ -1,5 +1,5 @@
 //
-//  IUFile.h
+//  LdzfFile.h
 //  CRJGeneralTools_Example
 //
 //  Created by zhuyuhui on 2020/9/12.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface IUFile : NSObject
+@interface LdzfFile : NSObject
 
 /**
  *  Type-A
@@ -76,13 +76,13 @@
 /**
  *  Sub files.
  */
-@property (nonatomic, strong) NSMutableArray  <IUFile *>  *subFiles;
+@property (nonatomic, strong) NSMutableArray  <LdzfFile *>  *subFiles;
 
 /**
  *  All sub files.
  *
  *  @return Sub files array.
  */
-- (NSArray <IUFile *> *)allFiles;
+- (NSArray <LdzfFile *> *)allFiles;
 @end
 

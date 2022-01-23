@@ -1,14 +1,14 @@
 //
-//  IUDateFormatter.m
+//  LdzfDateFormatter.m
 //  CRJGeneralTools_Example
 //
 //  Created by zhuyuhui on 2020/9/12.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
 //
 
-#import "IUDateFormatter.h"
+#import "LdzfDateFormatter.h"
 
-@implementation IUDateFormatter
+@implementation LdzfDateFormatter
 
 + (NSString *)dateFormatterWithInputDateString:(NSString *)dateString
                       inputDateStringFormatter:(NSString *)inputDateStringFormatter

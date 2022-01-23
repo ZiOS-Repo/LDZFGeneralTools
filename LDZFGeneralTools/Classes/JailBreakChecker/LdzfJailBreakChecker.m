@@ -1,12 +1,12 @@
 //
-//  IUJailBreakChecker.m
+//  LdzfJailBreakChecker.m
 //  CRJGeneralTools
 //
 //
 
-#import "IUJailBreakChecker.h"
+#import "LdzfJailBreakChecker.h"
 
-@implementation IUJailBreakChecker
+@implementation LdzfJailBreakChecker
 /*
  1.通过越狱后增加的越狱文件判断
 
@@ -67,13 +67,13 @@
 
 
 + (BOOL)isJailBroken {
-    if ([IUJailBreakChecker isJailBreak1]){
+    if ([LdzfJailBreakChecker isJailBreak1]){
         return YES;
     }
-    if ([IUJailBreakChecker isJailBreak2]){
+    if ([LdzfJailBreakChecker isJailBreak2]){
         return YES;
     }
-    if ([IUJailBreakChecker isJailBreak3]){
+    if ([LdzfJailBreakChecker isJailBreak3]){
         return YES;
     }
     return NO;

@@ -35,9 +35,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LDZFGeneralTools: ba3eaf855a7fb565b18cb513972fa51e467ffd87
+  LDZFGeneralTools: a1f71a1aafe4cfa51b34ed0c06f3b047f4132f31
   RegExCategories: e68befacacd5bda853c88f70ec745cb2d0cfb89c
 
 PODFILE CHECKSUM: 725a6abdda8266225ac980162ef8c71ce66a8b5a
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

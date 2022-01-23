@@ -1,14 +1,14 @@
 //
-//  IUFile.m
+//  LdzfFile.m
 //  CRJGeneralTools_Example
 //
 //  Created by zhuyuhui on 2020/9/12.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
 //
 
-#import "IUFile.h"
+#import "LdzfFile.h"
 
-@implementation IUFile
+@implementation LdzfFile
 
 - (instancetype)init {
     
@@ -20,7 +20,7 @@
     return self;
 }
 
-- (NSArray <IUFile *> *)allFiles {
+- (NSArray <LdzfFile *> *)allFiles {
     
     NSMutableArray *subFiles = [NSMutableArray array];
     
@@ -29,9 +29,9 @@
     return subFiles;
 }
 
-- (void)rootFile:(IUFile *)file array:(NSMutableArray *)array {
+- (void)rootFile:(LdzfFile *)file array:(NSMutableArray *)array {
     
-    for (IUFile *subFile in file.subFiles) {
+    for (LdzfFile *subFile in file.subFiles) {
         
         [array addObject:subFile];
         

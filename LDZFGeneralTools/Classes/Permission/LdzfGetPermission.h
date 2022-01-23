@@ -1,5 +1,5 @@
 //
-//  IUGetPermission.h
+//  LdzfGetPermission.h
 //  IU_GeneralTools
 //
 //  Created by zhuyuhui on 2021/6/29.
@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface IUGetPermission : NSObject
+@interface LdzfGetPermission : NSObject
 /**
  获取系统相册权限
  @param callBack callback

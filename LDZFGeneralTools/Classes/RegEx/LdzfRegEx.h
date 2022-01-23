@@ -1,15 +1,15 @@
 //
-//  IURegEx.h
+//  LdzfRegEx.h
 //  CRJGeneralTools
 //
 //  Created by zhuyuhui on 2020/9/22.
 //
 
 #import <Foundation/Foundation.h>
-#import "IUValidateUtils.h"
+#import "LdzfValidateUtils.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface IURegEx : NSObject
+@interface LdzfRegEx : NSObject
 /*
  //只能输入数字
  NSString* regex = @"^[0-9]*$";

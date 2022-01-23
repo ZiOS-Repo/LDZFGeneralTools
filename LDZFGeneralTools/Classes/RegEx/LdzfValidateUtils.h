@@ -1,13 +1,13 @@
 //
-//  IUValidateUtils.h
+//  LdzfValidateUtils.h
 //  CRJGeneralTools
 //
 //  Created by 朱玉辉(EX-ZHUYUHUI002) on 2021/1/12.
 //
 
 #import <Foundation/Foundation.h>
-#import "RegExCategories/RegExCategories.h"
-@interface IUValidateUtils : NSObject
+#import <RegExCategories/RegExCategories.h>
+@interface LdzfValidateUtils : NSObject
 /**
  限制输入最大长度
  @param textField 输入前文本框

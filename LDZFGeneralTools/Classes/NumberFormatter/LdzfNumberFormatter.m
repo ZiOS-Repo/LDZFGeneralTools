@@ -1,16 +1,16 @@
 //
-//  IUNumberFormatter.m
+//  LdzfNumberFormatter.m
 //  CRJGeneralTools_Example
 //
 //  Created by zhuyuhui on 2020/9/12.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
 //
 
-#import "IUNumberFormatter.h"
+#import "LdzfNumberFormatter.h"
 
-@implementation IUNumberFormatter
+@implementation LdzfNumberFormatter
 
-+ (NSString *)PercentStyleWithValue:(CGFloat)value
++ (NSString *)percentStyleWithValue:(CGFloat)value
               maximumFractionDigits:(NSUInteger)maximumFractionDigits
               minimumFractionDigits:(NSUInteger)minimumFractionDigits
                        roundingMode:(NSNumberFormatterRoundingMode)roundingMode {
@@ -24,7 +24,7 @@
     return [numFormatter stringFromNumber:[NSNumber numberWithFloat:value]];
 }
 
-+ (NSString *)PercentStyleWithNumberValue:(NSNumber *)value
++ (NSString *)percentStyleWithNumberValue:(NSNumber *)value
                     maximumFractionDigits:(NSUInteger)maximumFractionDigits
                     minimumFractionDigits:(NSUInteger)minimumFractionDigits
                              roundingMode:(NSNumberFormatterRoundingMode)roundingMode {

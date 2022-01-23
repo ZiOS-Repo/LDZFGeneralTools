@@ -1,5 +1,5 @@
 //
-//  IUFileManager.h
+//  LdzfFileManager.h
 //  CRJGeneralTools_Example
 //
 //  Created by zhuyuhui on 2020/9/12.
@@ -7,9 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "IUFile.h"
+#import "LdzfFile.h"
 
-@interface IUFileManager : NSObject
+@interface LdzfFileManager : NSObject
 
 /**
  *  Get the file at the related file path.
@@ -19,7 +19,7 @@
  *
  *  @return File.
  */
-+ (IUFile *)scanRelativeFilePath:(NSString *)relativeFilePath maxTreeLevel:(NSInteger)maxTreeLevel;
++ (LdzfFile *)scanRelativeFilePath:(NSString *)relativeFilePath maxTreeLevel:(NSInteger)maxTreeLevel;
 
 /**
  *  Transform related file path to real file path.
@@ -57,7 +57,7 @@
  *
  *  @return The real file path.
  */
-NS_INLINE NSString *CRJAbsoluteFilePathFrom(NSString * relativeFilePath) {
+NS_INLINE NSString *LdzfAbsoluteFilePathFrom(NSString * relativeFilePath) {
     
-    return [IUFileManager absoluteFilePathFromRelativeFilePath:relativeFilePath];
+    return [LdzfFileManager absoluteFilePathFromRelativeFilePath:relativeFilePath];
 }

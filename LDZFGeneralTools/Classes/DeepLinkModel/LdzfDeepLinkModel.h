@@ -1,5 +1,5 @@
 //
-//  IUDeepLinkModel.h
+//  LdzfDeepLinkModel.h
 //  CRJGeneralTools_Example
 //
 //  Created by zhuyuhui on 2020/9/12.
@@ -23,7 +23,7 @@ params    : @{@"pager"        : @"item_detail",
 }
 
 */
-@interface IUDeepLinkModel : NSObject
+@interface LdzfDeepLinkModel : NSObject
 @property (nonatomic, readonly) NSString     *scheme;
 @property (nonatomic, readonly) NSString     *host;
 @property (nonatomic, readonly) NSString     *paramsStr;

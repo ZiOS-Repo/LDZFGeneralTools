@@ -1,21 +1,21 @@
 //
-//  IUFileManager.m
+//  LdzfFileManager.m
 //  CRJGeneralTools_Example
 //
 //  Created by zhuyuhui on 2020/9/12.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
 //
 
-#import "IUFileManager.h"
+#import "LdzfFileManager.h"
 
-@implementation IUFileManager
+@implementation LdzfFileManager
 
-+ (IUFile *)scanRelativeFilePath:(NSString *)relativeFilePath maxTreeLevel:(NSInteger)maxTreeLevel {
++ (LdzfFile *)scanRelativeFilePath:(NSString *)relativeFilePath maxTreeLevel:(NSInteger)maxTreeLevel {
     
-    IUFile *file = nil;
+    LdzfFile *file = nil;
     
     // Get the real file path.
-    NSString *filePath = [IUFileManager absoluteFilePathFromRelativeFilePath:relativeFilePath];
+    NSString *filePath = [LdzfFileManager absoluteFilePathFromRelativeFilePath:relativeFilePath];
     
     // Check file exist.
     BOOL isDirectory = NO;
@@ -24,11 +24,11 @@
     // If file exist, create file.
     if (isExist) {
         
-        file = [IUFileManager cerateFileWithFilePath:filePath isDirectory:isDirectory];
+        file = [LdzfFileManager cerateFileWithFilePath:filePath isDirectory:isDirectory];
         
         if (file.isDirectory) {
             
-            [IUFileManager scanDir:file.filePath rootFile:file maxScanLevel:(maxTreeLevel <= 0 ? 0 : maxTreeLevel)];
+            [LdzfFileManager scanDir:file.filePath rootFile:file maxScanLevel:(maxTreeLevel <= 0 ? 0 : maxTreeLevel)];
         }
     }
     
@@ -48,9 +48,9 @@
     return [[NSBundle mainBundle] pathForResource:name ofType:nil];
 }
 
-+ (IUFile *)cerateFileWithFilePath:(NSString *)filePath isDirectory:(BOOL)isDirectory {
++ (LdzfFile *)cerateFileWithFilePath:(NSString *)filePath isDirectory:(BOOL)isDirectory {
     
-    IUFile *file        = [[IUFile alloc] init];
+    LdzfFile *file        = [[LdzfFile alloc] init];
     file.filePath     = filePath;
     file.fileName     = [filePath lastPathComponent];
     file.isDirectory  = isDirectory;
@@ -80,7 +80,7 @@
     return file;
 }
 
-+ (void)scanDir:(NSString *)dirPath rootFile:(IUFile *)rootFile maxScanLevel:(NSInteger)maxLevel {
++ (void)scanDir:(NSString *)dirPath rootFile:(LdzfFile *)rootFile maxScanLevel:(NSInteger)maxLevel {
     
     if (maxLevel <= rootFile.level) {
         
@@ -97,12 +97,12 @@
         BOOL isDirectory = NO;
         [[NSFileManager defaultManager] fileExistsAtPath:fullPath isDirectory:&isDirectory];
         
-        IUFile *file = [IUFileManager cerateFileWithFilePath:fullPath isDirectory:isDirectory];
+        LdzfFile *file = [LdzfFileManager cerateFileWithFilePath:fullPath isDirectory:isDirectory];
         file.level = rootFile.level + 1;
         
         if (file.isDirectory) {
             
-            [IUFileManager scanDir:file.filePath rootFile:file maxScanLevel:maxLevel];
+            [LdzfFileManager scanDir:file.filePath rootFile:file maxScanLevel:maxLevel];
         }
         
         [rootFile.subFiles addObject:file];

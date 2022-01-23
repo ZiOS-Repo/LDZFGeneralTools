@@ -1,13 +1,13 @@
 //
-//  IUValidateUtils.m
+//  LdzfValidateUtils.m
 //  CRJGeneralTools
 //
 //  Created by 朱玉辉(EX-ZHUYUHUI002) on 2021/1/12.
 //
 
-#import "IUValidateUtils.h"
+#import "LdzfValidateUtils.h"
 
-@implementation IUValidateUtils
+@implementation LdzfValidateUtils
 /**
  限制输入最大长度
  @param textField 输入前文本框

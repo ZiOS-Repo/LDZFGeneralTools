@@ -1,16 +1,16 @@
 //
-//  IUGetPermission.m
+//  LdzfGetPermission.m
 //  IU_GeneralTools
 //
 //  Created by zhuyuhui on 2021/6/29.
 //
 
-#import "IUGetPermission.h"
+#import "LdzfGetPermission.h"
 
 #import <Photos/Photos.h>
 #import <ContactsUI/ContactsUI.h>
 
-@implementation IUGetPermission
+@implementation LdzfGetPermission
 #pragma mark - 相册权限
 +(void)getPhotosPermission:(void(^)(BOOL has))callBack
 {
@@ -143,9 +143,9 @@
 #pragma mark - 同时获取相机+录音权限
 +(void)getCaptureAndRecodPermission:(void (^)(BOOL, BOOL))callBack
 {
-    [IUGetPermission getCaptureDevicePermission:^(BOOL has) {
+    [LdzfGetPermission getCaptureDevicePermission:^(BOOL has) {
         if (has) {
-            [IUGetPermission getAudioRecordPermission:^(BOOL has) {
+            [LdzfGetPermission getAudioRecordPermission:^(BOOL has) {
                 callBack(YES,has);
             }];
         }else{

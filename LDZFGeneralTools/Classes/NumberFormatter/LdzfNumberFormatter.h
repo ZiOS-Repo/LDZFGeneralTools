@@ -1,5 +1,5 @@
 //
-//  IUNumberFormatter.h
+//  LdzfNumberFormatter.h
 //  CRJGeneralTools_Example
 //
 //  Created by zhuyuhui on 2020/9/12.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-@interface IUNumberFormatter : NSObject
+@interface LdzfNumberFormatter : NSObject
 
 /**
  *  Get percent style value string(eg: 0.12 -> 12%).
@@ -20,7 +20,7 @@
  *
  *  @return Percent style value string.
  */
-+ (NSString *)PercentStyleWithValue:(CGFloat)value
++ (NSString *)percentStyleWithValue:(CGFloat)value
               maximumFractionDigits:(NSUInteger)maximumFractionDigits
               minimumFractionDigits:(NSUInteger)minimumFractionDigits
                        roundingMode:(NSNumberFormatterRoundingMode)roundingMode;
@@ -35,7 +35,7 @@
  *
  *  @return Percent style value string.
  */
-+ (NSString *)PercentStyleWithNumberValue:(NSNumber *)value
++ (NSString *)percentStyleWithNumberValue:(NSNumber *)value
                     maximumFractionDigits:(NSUInteger)maximumFractionDigits
                     minimumFractionDigits:(NSUInteger)minimumFractionDigits
                              roundingMode:(NSNumberFormatterRoundingMode)roundingMode;

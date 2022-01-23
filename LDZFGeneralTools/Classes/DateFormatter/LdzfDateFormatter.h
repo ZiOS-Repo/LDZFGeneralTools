@@ -1,5 +1,5 @@
 //
-//  IUDateFormatter.h
+//  LdzfDateFormatter.h
 //  CRJGeneralTools_Example
 //
 //  Created by zhuyuhui on 2020/9/12.
@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface IUDateFormatter : NSObject
+@interface LdzfDateFormatter : NSObject
 
 /**
  *  Use DateFormatter to transform dateString to specified date string.

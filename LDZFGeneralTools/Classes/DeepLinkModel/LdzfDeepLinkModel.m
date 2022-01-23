@@ -1,14 +1,14 @@
 //
-//  IUDeepLinkModel.m
+//  LdzfDeepLinkModel.m
 //  CRJGeneralTools_Example
 //
 //  Created by zhuyuhui on 2020/9/12.
 //  Copyright © 2020 zhuyuhui434@gmail.com. All rights reserved.
 //
 
-#import "IUDeepLinkModel.h"
+#import "LdzfDeepLinkModel.h"
 
-@interface IUDeepLinkModel ()
+@interface LdzfDeepLinkModel ()
 
 @property (nonatomic, strong) NSURL *url;
 
@@ -19,11 +19,11 @@
 
 @end
 
-@implementation IUDeepLinkModel
+@implementation LdzfDeepLinkModel
 
 + (instancetype)deepLinkModelWithURLStr:(NSString *)urlString {
 
-    IUDeepLinkModel *model = [IUDeepLinkModel new];
+    LdzfDeepLinkModel *model = [LdzfDeepLinkModel new];
     model.url            = [NSURL URLWithString:urlString];
     [model accessDataWithURL:model.url];
     
@@ -32,7 +32,7 @@
 
 + (instancetype)deepLinkModelWithURL:(NSURL *)url {
     
-    IUDeepLinkModel *model = [IUDeepLinkModel new];
+    LdzfDeepLinkModel *model = [LdzfDeepLinkModel new];
     model.url            = url;
     [model accessDataWithURL:model.url];
     

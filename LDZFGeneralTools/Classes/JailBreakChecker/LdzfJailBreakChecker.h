@@ -1,5 +1,5 @@
 //
-//  IUJailBreakChecker.h
+//  LdzfJailBreakChecker.h
 //  CRJGeneralTools
 //
 //
@@ -8,7 +8,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface IUJailBreakChecker : NSObject
+@interface LdzfJailBreakChecker : NSObject
 + (BOOL)isJailBroken;
 @end
 
